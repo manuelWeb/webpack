@@ -18,6 +18,10 @@ module.exports = {
         loader: 'babel-loader',
         exclude: /(node_modules|bower_components)/,
         include: root
+      },{
+        test: /\.css$/,
+        // attention plusieur loader > 'loaderS'
+        loaders: ['style-loader', 'css-loader']
       }
     ]
   }
