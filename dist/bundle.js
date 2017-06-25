@@ -77,8 +77,13 @@ module.exports = __webpack_require__(1);
 "use strict";
 
 
-var chaine = __webpack_require__(2);
-console.log(chaine);
+var _hello = __webpack_require__(2);
+
+var _hello2 = _interopRequireDefault(_hello);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+console.log(_hello2.default);
 
 /***/ }),
 /* 2 */
@@ -87,7 +92,10 @@ console.log(chaine);
 "use strict";
 
 
-module.exports = 'Hello World !';
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = 'Hello World !';
 
 /***/ })
 /******/ ]);

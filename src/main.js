@@ -1,2 +1,3 @@
-var chaine = require('./hello.js')
+import chaine from './hello.js'
+
 console.log(chaine)
