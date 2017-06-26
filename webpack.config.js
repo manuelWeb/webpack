@@ -23,6 +23,7 @@ module.exports = {
       },{
         test: /\.css$/,
         // attention plusieur loader > 'loaderS'
+        // loaders: ['style-loader', 'css-loader']
         loaders: extractCSS.extract(['css-loader'])
       }
     ]
