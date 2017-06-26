@@ -67,17 +67,24 @@
 /* 0 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(1);
+__webpack_require__(1);
+module.exports = __webpack_require__(2);
 
 
 /***/ }),
 /* 1 */
+/***/ (function(module, exports) {
+
+throw new Error("Module build failed: Error: \"extract-text-webpack-plugin\" loader is used without the corresponding plugin, refer to https://github.com/webpack/extract-text-webpack-plugin for the usage example\n    at Object.module.exports.pitch (/Users/Manuel/Documents/sites/javascript/webpack/node_modules/extract-text-webpack-plugin/loader.js:25:9)");
+
+/***/ }),
+/* 2 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var _hello = __webpack_require__(2);
+var _hello = __webpack_require__(3);
 
 var _hello2 = _interopRequireDefault(_hello);
 
@@ -86,7 +93,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 console.log(_hello2.default);
 
 /***/ }),
-/* 2 */
+/* 3 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -96,14 +103,14 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-__webpack_require__(3);
+__webpack_require__(4);
 exports.default = 'Hello World !';
 
 /***/ }),
-/* 3 */
+/* 4 */
 /***/ (function(module, exports) {
 
-// removed by extract-text-webpack-plugin
+throw new Error("Module build failed: Error: \"extract-text-webpack-plugin\" loader is used without the corresponding plugin, refer to https://github.com/webpack/extract-text-webpack-plugin for the usage example\n    at Object.module.exports.pitch (/Users/Manuel/Documents/sites/javascript/webpack/node_modules/extract-text-webpack-plugin/loader.js:25:9)");
 
 /***/ })
 /******/ ]);
